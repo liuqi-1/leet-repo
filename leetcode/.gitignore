@@ -1,0 +1,8 @@
+/leetcode/java/.idea/
+/leetcode/java/target/
+
+/leetcode/python/.idea/
+**/__init__.py
+**/__pycache__/**
+
+/.vscode/

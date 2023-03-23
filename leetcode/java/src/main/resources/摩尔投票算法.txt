@@ -1,0 +1,5 @@
+1. 摩尔投票算法
+    https://leetcode.cn/problems/majority-element/solutions/146074/duo-shu-yuan-su-by-leetcode-solution/
+
+2. 相关题目
+    MajorityElement

@@ -1,0 +1,16 @@
+快速选择算法：算法核心为递归和分治，和快速排序算法有一定的相似度，算法大概过程为：
+1. 先判断区间和端点l，r和比较数pivot
+2. 进行排序交换，使得区间分为两部分，左边部分小于等于pivot，右边部分大于等于pivot
+3. 判断pivot在排序后数组中的位置和k的关系，进而选择递归左边或者递归右边。
+   直到pivot排序后就是数组中第k个大/小的元素
+
+在区间[l,r]之间选择pivot时，可以引入随机化，使得期望时间复杂度变为O(n)
+
+时间复杂度分析：最坏情况下为O(n^2)，期望时间复杂度为O(n)
+如何证明快速选择算法的期望时间复杂度为O(n)？参考算法导论-9.2
+
+适用场景：数组固定的情况下，不适用于动态数据流
+
+视频讲解：https://leetcode.cn/problems/kth-largest-element-in-an-array/solutions/307351/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/
+
+例题：Qx5txi7
